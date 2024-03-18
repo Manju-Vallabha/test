@@ -18,6 +18,10 @@ import streamlit as st
 from google.cloud import aiplatform
 from google.cloud.aiplatform.gapic.schema import predict
 
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "growpro-413910-a513a74d23fa.json"
+
+
 st.title('Image Classification')
 ima = st.file_uploader("Choose an image...", type="jpg")
 project_id = '546899236073'
