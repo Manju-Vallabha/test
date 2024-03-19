@@ -20,7 +20,7 @@ from google.cloud import aiplatform
 from google.cloud.aiplatform.gapic.schema import predict
 
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "growpro-413910-a513a74d23fa.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "growpro-413910-e01110d89284.json"
 
 
 st.title('Image Classification')
